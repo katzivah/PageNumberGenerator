@@ -46,8 +46,8 @@ public class pageNumberCalculator {
     	int sum = 0;
     	for(int i = 0; i < hexaNum.length; i++) {
     		sum += hexaNum[hexaNum.length - i - 1] * Math.pow(16, i);
-    		
-    	} return sum;
+    	} 
+	return sum;
     }
     
     public static String hexConvert(int decimalValue){
@@ -58,9 +58,10 @@ public class pageNumberCalculator {
     			hex = (char)(rem + 55) + hex; 
     			
     			decimalValue /= 16;
-    		} else hex += decimalValue % 16;
+    		} 
+		else hex += decimalValue % 16;
     	}
-		hex = "0x" + hex;
+	hex = "0x" + hex;
     	return hex;
     }
 }
