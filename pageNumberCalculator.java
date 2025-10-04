@@ -2,7 +2,7 @@
  * @(#)pageNumberCalculator.java
  *
  *
- * @author Kris Caruso
+ * @author Karis Caruso
  * @version 1.00 2020/10/13
  */
 import java.util.Scanner;
